@@ -1,0 +1,71 @@
+@import './animations'
+@import './vars'
+
+:root
+	--primary: #F4B44A
+	--primary-dark: #ED9D19
+	--primary-text: var(--primary-dark)
+	--primary-soft: #FFF5E5
+
+	--secondary: #86BCED
+	--secondary-dark: #245D93
+	--secondary-text: var(--secondary-dark)
+	--secondary-soft: #EBF5FF
+
+	--bg: #fffdf5
+	--dark-overlay: rgba(0, 0, 0, 0.5)
+
+.dark-mode
+	--bg: #2c2c2c
+
+@font-face
+	font-family: 'Itim'
+	src: url('/fonts/Itim/Itim-Regular.ttf')
+	font-weight: 400
+	font-style: normal
+	font-display: swap
+
+*,
+*::before,
+*::after
+	box-sizing: border-box
+	margin: 0
+	padding: 0
+	font-weight: normal
+
+html
+	font-family: 'Itim', Helvetica, sans-serif
+	background-size: 224px
+	position: relative
+	font-size: 62.5%
+	scroll-behavior: smooth
+
+body
+	min-height: 100vh
+	text-rendering: optimizeLegibility
+	-webkit-font-smoothing: antialiased
+	-moz-osx-font-smoothing: grayscale
+	background: var(--bg)
+	color: var(--secondary-text)
+
+#app
+	height: 100vh
+
+h2
+	font-size: 54px
+	color: var(--secondary-text)
+
+.hidden
+	display: none
+
+// All except desktop
+@media screen and (max-width: $desktop-breakpoint)
+
+// All except mobile
+@media screen and (min-width: $tablet-breakpoint)
+
+// Mobile only
+@media screen and (max-width: $tablet-breakpoint)
+
+// Desktop only
+@media screen and (min-width: $desktop-breakpoint)

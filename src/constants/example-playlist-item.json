@@ -1,0 +1,367 @@
+{
+  "kind": "youtube#playlistItemListResponse",
+  "etag": "6aKRvxGdvLywh-JllEoOsE6PEug",
+  "items": [
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "fiestaAoHcTnk78X-eNCuIrKnIU",
+      "id": "UExCYWw5QXR0QUUwczJvcE5oV2F3M3htbVhycWtJVTV5dS4yODlGNEE0NkRGMEEzMEQy",
+      "snippet": {
+        "publishedAt": "2024-06-12T08:45:28Z",
+        "channelId": "UCCZpm6436NiU__lcBAlEZmQ",
+        "title": "La CANCIÓN del ABECEDARIO de la A a la Z - Vídeo educativo para aprender las letras",
+        "description": "Vídeo educativo para niños en el que aprenderán las letras del abecedario de la A a la Z con una divertida canción donde cantarán junto a nuestra foca las diferentes letras del abecedario.\n\nEste vídeo es un recurso muy útil e interesante para que los más pequeños aprendan el abecedario y las letras. Es perfecto para niños y niñas que están aprendiendo a leer y a escribir. Es un excelente vídeo para educación infantil y bilingüe.\n\nSi te gustan nuestros vídeos, descarga la app de Smile and Learn. Descubrirás miles de actividades entre juegos, cuentos interactivos y vídeos para niños creados por educadores. Nuestro contenido está disponible en ESPAÑOL, INGLÉS, PORTUGUÉS, CATALÁN, ITALIANO, FRANCÉS y TURCO.\n\nwww.smileandlearn.com",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/KsT289W3ZNc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/KsT289W3ZNc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/KsT289W3ZNc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/KsT289W3ZNc/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/KsT289W3ZNc/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Smile and Learn - Español",
+        "playlistId": "PLBal9AttAE0s2opNhWaw3xmmXrqkIU5yu",
+        "position": 0,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "KsT289W3ZNc"
+        },
+        "videoOwnerChannelTitle": "Smile and Learn - Español",
+        "videoOwnerChannelId": "UCCZpm6436NiU__lcBAlEZmQ"
+      },
+      "contentDetails": {
+        "videoId": "KsT289W3ZNc",
+        "videoPublishedAt": "2024-02-06T16:30:11Z"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "vBF743Nec4uphtdn3-n2oIyU9IU",
+      "id": "UExCYWw5QXR0QUUwczJvcE5oV2F3M3htbVhycWtJVTV5dS4xMkVGQjNCMUM1N0RFNEUx",
+      "snippet": {
+        "publishedAt": "2024-06-12T08:45:28Z",
+        "channelId": "UCCZpm6436NiU__lcBAlEZmQ",
+        "title": "CONTEMOS HASTA 5 🎵 Colaboración con 123 Andrés, ganadores de un Grammy 🧍🏻‍♂️🧍🏻‍♀️ Canción educativa",
+        "description": "Vídeo educativo para niños en colaboración con el dúo colombiano 123 Andrés. En este vídeo los niños y las niñas aprenderán a contar hasta cinco gracias a una divertida canción cantada por 123 Andrés, ganadores de un Grammy en la edición de febrero de 2024.\n\nEste vídeo es un recurso muy útil e interesante para los niños. Es perfecto para enseñar a contar hasta cinco. Es un excelente vídeo para educación infantil.\n\nSi te gustan nuestros vídeos, descarga la app de Smile and Learn. Descubrirás miles de actividades entre juegos, cuentos interactivos y vídeos para niños creados por educadores. Nuestro contenido está disponible en ESPAÑOL, INGLÉS, PORTUGUÉS, CATALÁN, ITALIANO, FRANCÉS y TURCO.\n\nwww.smileandlearn.com",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/cMgOX6MxR2o/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/cMgOX6MxR2o/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/cMgOX6MxR2o/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/cMgOX6MxR2o/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/cMgOX6MxR2o/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Smile and Learn - Español",
+        "playlistId": "PLBal9AttAE0s2opNhWaw3xmmXrqkIU5yu",
+        "position": 1,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "cMgOX6MxR2o"
+        },
+        "videoOwnerChannelTitle": "Smile and Learn - Español",
+        "videoOwnerChannelId": "UCCZpm6436NiU__lcBAlEZmQ"
+      },
+      "contentDetails": {
+        "videoId": "cMgOX6MxR2o",
+        "videoPublishedAt": "2024-02-15T16:30:08Z"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "f5KwtiTTkMzQpng5qYhnitbOTF8",
+      "id": "UExCYWw5QXR0QUUwczJvcE5oV2F3M3htbVhycWtJVTV5dS41MzJCQjBCNDIyRkJDN0VD",
+      "snippet": {
+        "publishedAt": "2024-06-12T08:45:28Z",
+        "channelId": "UCCZpm6436NiU__lcBAlEZmQ",
+        "title": "La CANCIÓN de los COLORES para niños 🎨 Vídeo educativo para aprender los colores 🌈",
+        "description": "Vídeo educativo para niños en el que aprenderán los colores gracias a una divertida canción. Con esta canción para niños aprenderán los colores rojo, naranja, amarillo, verde, azul, morado, rosa, marrón, negro y blanco. ¿Aprendemos los colores juntos?\n\nEste vídeo es un recurso muy útil e interesante para los niños. Es perfecto para enseñar los colores. Es un excelente vídeo para educación infantil.\n\nSi te gustan nuestros vídeos, descarga la app de Smile and Learn. Descubrirás miles de actividades entre juegos, cuentos interactivos y vídeos para niños creados por educadores. Nuestro contenido está disponible en ESPAÑOL, INGLÉS, PORTUGUÉS, CATALÁN, ITALIANO, FRANCÉS y TURCO.\n\nwww.smileandlearn.com",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/p8UJLmNMp_w/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/p8UJLmNMp_w/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/p8UJLmNMp_w/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/p8UJLmNMp_w/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/p8UJLmNMp_w/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Smile and Learn - Español",
+        "playlistId": "PLBal9AttAE0s2opNhWaw3xmmXrqkIU5yu",
+        "position": 2,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "p8UJLmNMp_w"
+        },
+        "videoOwnerChannelTitle": "Smile and Learn - Español",
+        "videoOwnerChannelId": "UCCZpm6436NiU__lcBAlEZmQ"
+      },
+      "contentDetails": {
+        "videoId": "p8UJLmNMp_w",
+        "videoPublishedAt": "2024-03-12T16:30:15Z"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "W6CtrjPE8utVYGuIr-RbzNoPaws",
+      "id": "UExCYWw5QXR0QUUwczJvcE5oV2F3M3htbVhycWtJVTV5dS4wMTcyMDhGQUE4NTIzM0Y5",
+      "snippet": {
+        "publishedAt": "2024-06-12T08:45:28Z",
+        "channelId": "UCCZpm6436NiU__lcBAlEZmQ",
+        "title": "La CANCIÓN de los NÚMEROS del 1 al 20 🚀 Vídeo educativo para aprender los números 🪐",
+        "description": "Vídeo educativo para niños en el que aprenderán a contar del uno al veinte gracias a una divertida canción.\n\nEste vídeo es un recurso muy útil e interesante para los niños. Es perfecto para enseñar a contar hasta veinte. Es un excelente vídeo para educación infantil.\n\nSi te gustan nuestros vídeos, descarga la app de Smile and Learn. Descubrirás miles de actividades entre juegos, cuentos interactivos y vídeos para niños creados por educadores. Nuestro contenido está disponible en ESPAÑOL, INGLÉS, PORTUGUÉS, CATALÁN, ITALIANO, FRANCÉS y TURCO.\n\nwww.smileandlearn.com",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/O-37lugLe9s/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/O-37lugLe9s/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/O-37lugLe9s/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/O-37lugLe9s/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/O-37lugLe9s/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Smile and Learn - Español",
+        "playlistId": "PLBal9AttAE0s2opNhWaw3xmmXrqkIU5yu",
+        "position": 3,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "O-37lugLe9s"
+        },
+        "videoOwnerChannelTitle": "Smile and Learn - Español",
+        "videoOwnerChannelId": "UCCZpm6436NiU__lcBAlEZmQ"
+      },
+      "contentDetails": {
+        "videoId": "O-37lugLe9s",
+        "videoPublishedAt": "2024-02-27T16:30:11Z"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "44GQBLpeAJxlRLmEuEunJ7Z-C8U",
+      "id": "UExCYWw5QXR0QUUwczJvcE5oV2F3M3htbVhycWtJVTV5dS41NkI0NEY2RDEwNTU3Q0M2",
+      "snippet": {
+        "publishedAt": "2024-06-12T08:45:28Z",
+        "channelId": "UCCZpm6436NiU__lcBAlEZmQ",
+        "title": "CANCIÓN de los MESES del año 📅 Canción educativa 🎶 Los meses del año para niños 👦​👧​",
+        "description": "Vídeo educativo para niños en el que aprenderán los meses del año con una divertida canción. Con esta canción alegre y pegadiza aprenderán los nombres de los meses y cuántos días tiene cada uno de ellos. \n Aprender con canciones en la infancia fomenta el desarrollo lingüístico y cognitivo de manera lúdica. \n\nEste vídeo es un recurso muy útil para niños y niñas de educación infantil y primaria que están aprendiendo a los meses del año, ya que podrán aprender los nombres y entender el concepto de año bisiesto. ¿Te animas a aprender las canciones de Smile and Learn? \n\nLetra:\n\nEnero, febrero, marzo, abril\nMayo, junio, julio, agosto\nSeptiembre, octubre, noviembre, diciembre\nLos meses del año, los recuerdo siempre \n\nTreinta días tiene septiembre\nCon abril, junio y noviembre\nDe veintiocho sólo hay uno\nLos demás de treinta y uno\n\nEnero, febrero, marzo, abril\nMayo, junio, julio, agosto\nSeptiembre, octubre, noviembre, diciembre\nLos meses del año, los recuerdo siempre \n\nTreinta días tiene septiembre\nCon abril, junio y noviembre\nDe veintiocho sólo hay uno\nLos demás de treinta y uno\n\n¿Y febrero? ¿Cuál es el misterio?\nDe sólo veintiocho días, es el más corto. \nPero cada cuatro años, tiene veintinueve días.\nEs un año bisiesto, ¡qué alegría!\n\nEnero, febrero, marzo, abril\nMayo, junio, julio, agosto\nSeptiembre, octubre, noviembre, diciembre\nLos meses del año, los recuerdo siempre \n\nTreinta días tiene septiembre\nCon abril, junio y noviembre\nDe veintiocho sólo hay uno\nLos demás de treinta y uno\n\nSi te gustan nuestros vídeos, descarga la app de Smile and Learn. Descubrirás miles de actividades entre juegos, cuentos interactivos y vídeos para niños creados por educadores. Nuestro contenido está disponible en ESPAÑOL, INGLÉS, PORTUGUÉS, CATALÁN, ITALIANO, FRANCÉS y TURCO.\n\nwww.smileandlearn.com",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/EGcm9wv6RXs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/EGcm9wv6RXs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/EGcm9wv6RXs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/EGcm9wv6RXs/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/EGcm9wv6RXs/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Smile and Learn - Español",
+        "playlistId": "PLBal9AttAE0s2opNhWaw3xmmXrqkIU5yu",
+        "position": 4,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "EGcm9wv6RXs"
+        },
+        "videoOwnerChannelTitle": "Smile and Learn - Español",
+        "videoOwnerChannelId": "UCCZpm6436NiU__lcBAlEZmQ"
+      },
+      "contentDetails": {
+        "videoId": "EGcm9wv6RXs",
+        "videoPublishedAt": "2024-05-06T15:30:03Z"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "0Z1c5HdMZv_kOlHiHHosaUE036U",
+      "id": "UExCYWw5QXR0QUUwczJvcE5oV2F3M3htbVhycWtJVTV5dS41MjE1MkI0OTQ2QzJGNzNG",
+      "snippet": {
+        "publishedAt": "2024-06-12T08:45:28Z",
+        "channelId": "UCCZpm6436NiU__lcBAlEZmQ",
+        "title": "CANCIÓN: Cabeza, hombros, rodillas y pies 🎶 REGUETÓN 🎵 CANCIÓN PARA NIÑOS 🦶👀👃 Las partes del cuerpo",
+        "description": "Vídeo educativo para niños en el que aprenderán las partes del cuerpo a través de una divertida canción: cabeza, orejas, nariz, boca, ojos, hombros, rodillas y pies. Los niños descubrirán cómo pronunciar los nombres de las distintas partes del cuerpo y cantarán con personajes super divertidos. Versión de la famosa canción Head, Shoulders, Knees and Toes.\n\nEste vídeo es un recurso muy útil e interesante para que los más pequeños conozcan las diferentes partes del cuerpo humano. Es un excelente vídeo para educación infantil.\n\nSi te gustan nuestros vídeos, descarga la app de Smile and Learn. Descubrirás miles de actividades entre juegos, cuentos interactivos y vídeos para niños creados por educadores. Nuestro contenido está disponible en ESPAÑOL, INGLÉS, PORTUGUÉS, CATALÁN, ITALIANO, FRANCÉS y TURCO.\n\nwww.smileandlearn.com",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/RBXXax7oOpA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/RBXXax7oOpA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/RBXXax7oOpA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/RBXXax7oOpA/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/RBXXax7oOpA/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Smile and Learn - Español",
+        "playlistId": "PLBal9AttAE0s2opNhWaw3xmmXrqkIU5yu",
+        "position": 5,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "RBXXax7oOpA"
+        },
+        "videoOwnerChannelTitle": "Smile and Learn - Español",
+        "videoOwnerChannelId": "UCCZpm6436NiU__lcBAlEZmQ"
+      },
+      "contentDetails": {
+        "videoId": "RBXXax7oOpA",
+        "videoPublishedAt": "2022-10-18T15:30:07Z"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "vtNRNjYxb6FiBUI9HriwD0jTRsM",
+      "id": "UExCYWw5QXR0QUUwczJvcE5oV2F3M3htbVhycWtJVTV5dS4wOTA3OTZBNzVEMTUzOTMy",
+      "snippet": {
+        "publishedAt": "2024-06-12T08:45:28Z",
+        "channelId": "UCCZpm6436NiU__lcBAlEZmQ",
+        "title": "CANCIÓN de los DÍAS de la SEMANA y las EMOCIONES 📆​😁 Cada día es distinto 🎶 Canción educativa 😢",
+        "description": "Vídeo educativo para niños en el que aprenderán los días de la semana con una divertida canción. Con esta canción alegre y pegadiza aprenderán los nombres y el orden de los días de la semana. Los niños aprenderás también que todas las emociones son importantes y que es normal sentir emociones diferentes. Aprender con canciones en la infancia fomenta el desarrollo lingüístico y cognitivo de manera lúdica. \n\nEste vídeo es un recurso muy útil para niños y niñas de educación infantil y primaria que están aprendiendo a los días de la semana, ya que podrán aprender los nombres y el orden de los días mientras se divierten cantando. ¿Te animas a aprender las canciones de Smile and Learn? \n\nLetra:\n\nCada día es distinto\n\nHoy es lunes.\n¿Cómo estás?\nEstoy cansada (Está bien)\nPues cada día es distinto\n\nHoy es martes\n¿Cómo estás?\nEstoy contenta (Está bien)\nEl lunes, cansada (Está bien)\nPues cada día es distinto\n\nHoy es miércoles\n¿Cómo estás? \nEstoy aburrida (Está bien)\nEl martes, contenta (Está bien)\nEl lunes, cansada (Está bien)\nPues cada día es distinto\n\nHoy es jueves\n¿Cómo estás?\nEstoy enfadada (Está bien)\nEl miércoles, aburrida (Está bien)\nEl martes, contenta (Está bien)\nEl lunes, cansada (Está bien)\nPues cada día es distinto\n\nHoy es viernes\n¿Cómo estás?\nEstoy ilusionada (Está bien)\nEl jueves, enfadada (Está bien)\nEl miércoles, aburrida (Está bien)\nEl martes, contenta (Está bien)\nEl lunes, cansada (Está bien)\nPues cada día es distinto\n\nHoy es sábado\n¿Cómo estás?\nEstoy nerviosa (Está bien)\nEl viernes, ilusionada (Está bien)\nEl jueves, enfadada (Está bien)\nEl miércoles, aburrida (Está bien)\nEl martes, contenta (Está bien)\nEl lunes, cansada (Está bien)\nPues cada día es distinto\n\nHoy es domingo\nEstoy relajada\nTomo aire y luego lo suelto\nUnos días son buenos, y otros no tanto\nEs mi vida y está bien. \n\n¡Lunes, martes, miércoles, jueves, viernes, sábado, domingo!\n\n¡Y cada día es distinto!\n\nSi te gustan nuestros vídeos, descarga la app de Smile and Learn. Descubrirás miles de actividades entre juegos, cuentos interactivos y vídeos para niños creados por educadores. Nuestro contenido está disponible en ESPAÑOL, INGLÉS, PORTUGUÉS, CATALÁN, ITALIANO, FRANCÉS y TURCO.\n\nwww.smileandlearn.com",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/V6eG_6nyTvc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/V6eG_6nyTvc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/V6eG_6nyTvc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/V6eG_6nyTvc/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/V6eG_6nyTvc/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Smile and Learn - Español",
+        "playlistId": "PLBal9AttAE0s2opNhWaw3xmmXrqkIU5yu",
+        "position": 6,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "V6eG_6nyTvc"
+        },
+        "videoOwnerChannelTitle": "Smile and Learn - Español",
+        "videoOwnerChannelId": "UCCZpm6436NiU__lcBAlEZmQ"
+      },
+      "contentDetails": {
+        "videoId": "V6eG_6nyTvc",
+        "videoPublishedAt": "2024-06-11T15:30:07Z"
+      }
+    }
+  ],
+  "pageInfo": {
+    "totalResults": 7,
+    "resultsPerPage": 50
+  }
+}
