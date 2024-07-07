@@ -21,12 +21,14 @@ const props = withDefaults(defineProps<{ color?: 'primary' | 'secondary'; disabl
 </template>
 
 <style lang="sass">
+@import '@/styles/vars'
+
 .video-thumbnail
 	overflow: hidden
 	border-radius: 10px
 	border: 4px solid var(--primary-dark)
 	background: var(--primary-soft)
-	// width: 380px
+	width: 360px
 	height: 220px
 	display: flex
 	justify-content: center
@@ -80,4 +82,9 @@ const props = withDefaults(defineProps<{ color?: 'primary' | 'secondary'; disabl
 
 		.dark-overlay
 			opacity: 1
+
+// Mobile only
+@media screen and (max-width: $mobile-breakpoint)
+	.video-thumbnail
+		width: auto
 </style>

@@ -84,6 +84,11 @@ watch(route, () => {
 		.play-icon
 			width: 180px
 
+// Desktop only
+@media screen and (min-width: $desktop-breakpoint)
+	.video-player
+		min-width: 900px
+
 // Mobile only
 @media screen and (max-width: $mobile-breakpoint)
 	.video-player
@@ -91,6 +96,10 @@ watch(route, () => {
 		border-radius: 0
 		box-shadow: 0 0px 10px 0 rgba(244, 180, 74, 1)
 		overflow: visible
+		min-width: 100vw
+
+		img
+			width: 100%
 
 		& > div
 			width: 100%

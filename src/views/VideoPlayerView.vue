@@ -125,8 +125,10 @@ section.all-categories
 
 	.category-info
 		padding: 24px 8vw
+		min-height: 140px
+
 		h1
-			font-size: 28px
+			font-size: 32px
 			max-width: inherit
 
 	.video-player-section
@@ -139,4 +141,8 @@ section.all-categories
 
 		.video-name
 			font-size: 20px
+
+	section.all-categories
+		margin-top: 80px
+		padding: 40px 0
 </style>

@@ -21,13 +21,6 @@ const videosStore = useVideosStore()
       ><br />
       {{ $t('whatYouWantToLearn') }}
     </h2>
-    <!-- <div class="categories-carousel">
-      <div class="wrapper">
-        <div class="category" v-for="category in videosStore.categoriesList" :key="category.id">
-          <CategoryItem v-bind="category" />
-        </div>
-      </div>
-    </div> -->
     <div class="categories-carousel">
       <CarouselLayout :controls="false">
         <Slide class="category" v-for="category in videosStore.categoriesList" :key="category.id">
@@ -39,6 +32,8 @@ const videosStore = useVideosStore()
 </template>
 
 <style scoped lang="sass">
+@import '@/styles/vars'
+
 .start-view
 	flex: 1
 	display: flex
@@ -59,4 +54,17 @@ h2
 	display: flex
 	flex-direction: column
 	justify-content: center
+
+// Mobile only
+@media screen and (max-width: $mobile-breakpoint)
+	.start-view
+		margin-top: 0px
+		padding-bottom: 0px
+
+		h2
+			padding: 8px 24px
+			font-size: 42px
+
+	.categories-carousel
+		padding-top: 48px
 </style>

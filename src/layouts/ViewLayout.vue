@@ -3,18 +3,18 @@ import { RouterLink } from 'vue-router'
 </script>
 
 <template>
-  <div class="main-layout">
+  <div class="view-layout">
     <header>
       <RouterLink to="/">
         <img alt="Smile And Learn logo" class="logo" src="@/assets/Smile-and-learn.png" />
       </RouterLink>
       <slot name="header"></slot>
+      <div class="fixed-circles">
+        <img src="@/assets/circle-bubble.svg" />
+        <img src="@/assets/circle-bubble.svg" />
+        <img src="@/assets/circle-bubble.svg" />
+      </div>
     </header>
-    <div class="fixed-circles">
-      <img src="@/assets/circle-bubble.svg" />
-      <img src="@/assets/circle-bubble.svg" />
-      <img src="@/assets/circle-bubble.svg" />
-    </div>
     <slot />
     <div class="bottom-waves">
       <img src="@/assets/bottom-waves.svg" />
@@ -25,18 +25,23 @@ import { RouterLink } from 'vue-router'
 <style scoped lang="sass">
 @import '@/styles/vars'
 
-.main-layout
+.view-layout
 	background: #f6f6f6
 	height: 100%
 	display: flex
 	flex-direction: column
+
 header
 	padding: 2vh 24px 0
 	z-index: 4
 	position: fixed
 	left: 0px
 	top: 0px
-	position: relative
+	width: 100%
+	height: 380px
+	max-width: 100vw
+	min-height: 120px
+	overflow: hidden
 
 .fixed-circles
 	img
@@ -53,7 +58,7 @@ header
 		&:nth-child(3)
 			width: 132px
 			left: -76px
-			top: 80px
+			bottom: 20px
 
 .bottom-waves
 	position: relative
@@ -94,4 +99,13 @@ header
 				width: 102px
 				left: -60px
 				top: 140px
+
+	.bottom-waves
+		img
+			position: absolute
+			width: 180%
+			left: 50%
+			top: auto
+			bottom: -8px
+			transform: translateX(-50%)
 </style>
