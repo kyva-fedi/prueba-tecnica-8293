@@ -1,7 +1,9 @@
 <script setup lang="ts">
 import 'vue3-carousel/dist/carousel.css'
-import { Carousel, Slide } from 'vue3-carousel'
+import { Slide } from 'vue3-carousel'
 import CategoryItem from '../components/CategoryItem.vue'
+import CarouselLayout from '../layouts/CarouselLayout.vue'
+
 import { ref } from 'vue'
 const user = ref({
   name: 'Laura'
@@ -10,28 +12,6 @@ const user = ref({
 import { useVideosStore } from '@/stores/videos'
 
 const videosStore = useVideosStore()
-
-const settings = {
-  itemsToShow: 1.5,
-  wrapAround: true
-}
-
-const breakpoints = {
-  // 700px and up
-  700: {
-    itemsToShow: 2,
-    wrapAround: true
-  },
-  1200: {
-    itemsToShow: 3.5,
-    wrapAround: true
-  },
-  // 1300 and up
-  1560: {
-    itemsToShow: 4,
-    wrapAround: true
-  }
-}
 </script>
 
 <template>
@@ -39,7 +19,7 @@ const breakpoints = {
     <h2>
       {{ $t('hello') }}, <span class="name">{{ user.name }}</span
       ><br />
-      ¿Qué quieres aprender hoy?
+      {{ $t('whatYouWantToLearn') }}
     </h2>
     <!-- <div class="categories-carousel">
       <div class="wrapper">
@@ -49,11 +29,11 @@ const breakpoints = {
       </div>
     </div> -->
     <div class="categories-carousel">
-      <Carousel :settings="settings" :breakpoints="breakpoints">
+      <CarouselLayout :controls="false">
         <Slide class="category" v-for="category in videosStore.categoriesList" :key="category.id">
           <CategoryItem v-bind="category" />
         </Slide>
-      </Carousel>
+      </CarouselLayout>
     </div>
   </div>
 </template>
