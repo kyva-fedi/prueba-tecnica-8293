@@ -2,33 +2,38 @@ import type { Category } from '@/types'
 
 export const categories: Category[] = [
   {
-    slug: 'animals',
+    id: '21342',
     name: 'Los Animales',
     thumbUrl: 'https://i.ytimg.com/vi/m19w0yoCwnw/hqdefault.jpg',
-    videosList: []
+    videosList: [],
+    videosCount: 8
   },
   {
-    slug: 'animals',
-    name: 'Los Animales',
+    id: '21342',
+    name: 'Las Plantas',
     thumbUrl: 'https://i.ytimg.com/vi/m19w0yoCwnw/hqdefault.jpg',
-    videosList: []
+    videosList: [],
+    videosCount: 3
   },
   {
-    slug: 'animals',
-    name: 'Los Animales',
+    id: '21342',
+    name: 'Canciones',
     thumbUrl: 'https://i.ytimg.com/vi/m19w0yoCwnw/hqdefault.jpg',
-    videosList: []
+    videosList: [],
+    videosCount: 2
   },
   {
-    slug: 'animals',
-    name: 'Los Animales',
+    id: '21342',
+    name: 'Los números',
     thumbUrl: 'https://i.ytimg.com/vi/m19w0yoCwnw/hqdefault.jpg',
-    videosList: []
+    videosList: [],
+    videosCount: 5
   },
   {
-    slug: 'animals',
-    name: 'Los Animales',
+    id: '21342',
+    name: 'El cuerpo humano',
     thumbUrl: 'https://i.ytimg.com/vi/m19w0yoCwnw/hqdefault.jpg',
-    videosList: []
+    videosList: [],
+    videosCount: 12
   }
 ]
