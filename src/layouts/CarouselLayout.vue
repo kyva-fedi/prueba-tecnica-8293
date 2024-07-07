@@ -17,4 +17,14 @@ const props = withDefaults(defineProps<{ controls: boolean }>(), {
   </Carousel>
 </template>
 
-<style scoped lang="sass"></style>
+<style scoped lang="sass">
+@import '@/styles/vars'
+
+.carousel__next, .carousel__prev
+	display: none
+
+// Mobile only
+@media screen and (max-width: $mobile-breakpoint)
+.carousel__next, .carousel__prev
+	display: inline
+</style>

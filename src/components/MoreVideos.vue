@@ -37,7 +37,6 @@ console.log('videos', props.videos)
 </template>
 
 <style lang="sass">
-@import '@/styles/vars'
 
 .small-carousel
 	display: flex
@@ -48,14 +47,4 @@ console.log('videos', props.videos)
 
 	.video-item
 		width: 420px
-
-.more-videos
-	.carousel__next, .carousel__prev
-		display: none
-
-// Mobile only
-@media screen and (max-width: $mobile-breakpoint)
-	.more-videos
-		.carousel__next, .carousel__prev
-			display: inline
 </style>
