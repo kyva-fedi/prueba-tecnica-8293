@@ -126,6 +126,8 @@ section.all-categories
 	.category-info
 		padding: 24px 8vw
 		min-height: 140px
+		display: flex
+		align-items: center
 
 		h1
 			font-size: 32px

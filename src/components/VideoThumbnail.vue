@@ -2,7 +2,7 @@
 import PlayIcon from './Icons/PlayIcon.vue'
 import PlayingIcon from './Icons/PlayingIcon.vue'
 
-const props = withDefaults(defineProps<{ color?: 'primary' | 'secondary'; disabled: boolean }>(), {
+const props = withDefaults(defineProps<{ color?: 'primary' | 'secondary'; disabled?: boolean }>(), {
   color: 'primary',
   disabled: false
 })

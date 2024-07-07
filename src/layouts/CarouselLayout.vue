@@ -2,7 +2,7 @@
 import { Carousel, Navigation, Pagination } from 'vue3-carousel'
 import { settings, breakpoints } from '../constants'
 
-const props = withDefaults(defineProps<{ controls: boolean }>(), {
+const props = withDefaults(defineProps<{ controls?: boolean }>(), {
   controls: true
 })
 </script>

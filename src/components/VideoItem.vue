@@ -7,7 +7,7 @@ import VideoThumbnail from './VideoThumbnail.vue'
 const router = useRouter()
 
 interface VideoItemProps extends Video {
-  disabled: boolean
+  disabled?: boolean
 }
 
 const props = defineProps<VideoItemProps>()
