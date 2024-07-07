@@ -36,10 +36,11 @@ header
 	position: fixed
 	left: 0px
 	top: 0px
+	position: relative
 
 .fixed-circles
 	img
-		position: fixed
+		position: absolute
 		z-index: 0
 
 		&:nth-child(1)
@@ -52,7 +53,7 @@ header
 		&:nth-child(3)
 			width: 132px
 			left: -76px
-			top: calc(50% - 40px - 132px)
+			top: 80px
 
 .bottom-waves
 	position: relative
@@ -92,5 +93,5 @@ header
 			&:nth-child(3)
 				width: 102px
 				left: -60px
-				top: calc(50% - 40px - 132px)
+				top: 140px
 </style>

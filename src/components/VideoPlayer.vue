@@ -90,6 +90,15 @@ watch(route, () => {
 		border-width: 0px
 		border-radius: 0
 		box-shadow: 0 0px 10px 0 rgba(244, 180, 74, 1)
+		overflow: visible
+
+		& > div
+			width: 100%
+			height: 101%
+
+		.youtube-wrapper
+			width: 100%
+			height: 99%
 
 		.play-icon
 			width: 100px

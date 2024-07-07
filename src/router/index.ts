@@ -14,7 +14,11 @@ const router = createRouter({
       name: 'video-player',
       component: () => import('../views/VideoPlayerView.vue')
     }
-  ]
+  ],
+  scrollBehavior() {
+    // always scroll to top
+    return { top: 0 }
+  }
 })
 
 export default router

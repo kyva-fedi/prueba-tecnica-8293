@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { RouterView } from 'vue-router'
-import MainLayout from './layouts/MainLayout.vue'
+import ViewLayout from './layouts/ViewLayout.vue'
 
 import { useVideosStore } from '@/stores/videos'
 
@@ -10,7 +10,7 @@ videosStore.fetchCategories()
 </script>
 
 <template>
-  <MainLayout>
+  <ViewLayout>
     <RouterView />
-  </MainLayout>
+  </ViewLayout>
 </template>

@@ -1,4 +1,5 @@
 {
-  "hello": "hola",
-  "videos": "videos"
+  "hello": "Hola",
+  "whatYouWantToLearn": "¿Qué quieres aprender hoy?",
+  "videos": "vídeos"
 }
