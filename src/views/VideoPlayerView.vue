@@ -66,7 +66,6 @@ watch(route, () => {
 .category-info
 	display: flex
 	justify-content: center
-	// height: 80px
 
 	h1
 		font-size: 42px
@@ -105,6 +104,7 @@ section.all-categories
 		.video-wrapper
 			width: 65vw
 			max-width: 900px
+			min-width: 700px
 
 // Mobile and Tablet
 @media screen and (max-width: $tablet-breakpoint)

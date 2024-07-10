@@ -2,6 +2,7 @@
 import type { Video } from '@/types'
 import { nextTick, ref, watch } from 'vue'
 import PlayIcon from './Icons/PlayIcon.vue'
+import LoadingSpinner from './LoadingSpinner.vue'
 import { useRoute } from 'vue-router'
 import type { YoutubePlayer } from '@/types/youtubeAPI'
 
@@ -27,7 +28,9 @@ watch(route, () => {
 
 <template>
   <div class="video-player" @click="playVideo">
-    <div v-if="!props.video">Loading...</div>
+    <div v-if="!props.video">
+      <LoadingSpinner />
+    </div>
     <div v-else>
       <div class="youtube-wrapper" :class="{ hidden: !isVideoPlaying }">
         <VueYtframe
@@ -50,7 +53,7 @@ watch(route, () => {
 .video-player
 	border-radius: 20px
 	border: 8px solid var(--secondary-dark)
-	background: var(--primary-soft)
+	background: var(--bg)
 	aspect-ratio: 16/9.11
 	// height: 60vh
 	width: 100%

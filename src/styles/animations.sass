@@ -1,22 +1,15 @@
-@keyframes fadeIn
-	0%
-		opacity: 0
+@keyframes rotate
 	100%
-		opacity: 1
+		transform: rotate(360deg)
 
-@keyframes minijump
+@keyframes prixClipFix
 	0%
-		transform: translateY(0px)
+		clip-path: polygon(50% 50%,0 0,0 0,0 0,0 0,0 0)
+	25%
+		clip-path: polygon(50% 50%,0 0,100% 0,100% 0,100% 0,100% 0)
 	50%
-		transform: translateY(-4px)
+		clip-path: polygon(50% 50%,0 0,100% 0,100% 100%,100% 100%,100% 100%)
+	75%
+		clip-path: polygon(50% 50%,0 0,100% 0,100% 100%,0 100%,0 100%)
 	100%
-		transform: translateY(0px)
-
-@keyframes glow-up
-	0%
-		filter: grayscale(100)
-		opacity: 0.8
-
-	100%
-		filter: grayscale(0)
-		opacity: 1
+		clip-path: polygon(50% 50%,0 0,100% 0,100% 100%,0 100%,0 0)
