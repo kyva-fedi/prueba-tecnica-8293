@@ -7,6 +7,7 @@ export interface CategoriesList {
 interface Category {
   id: string
   name: LocalizedStr
+  thumbnail: Thumbnails
   description: LocalizedStr
   videosList: Video[]
   videosTotalCount: number
