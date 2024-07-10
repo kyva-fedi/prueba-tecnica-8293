@@ -12,11 +12,16 @@
 	--secondary-text: var(--secondary-dark)
 	--secondary-soft: #EBF5FF
 
-	--bg: #fffdf5
+	--bg: #f6f6f6
 	--dark-overlay: rgba(0, 0, 0, 0.5)
+	--icon: #eb8939
+	--box-shadow-yellow: 0 0px 10px 0 rgba(244, 180, 74, 1)
 
-.dark-mode
-	--bg: #2c2c2c
+html[data-theme='dark']
+	--bg: #383838
+	--secondary-dark: #60a6e7
+	--icon: #d595ff
+	--box-shadow-yellow: 0 0px 10px 0 rgba(244, 180, 74, 0.6)
 
 @font-face
 	font-family: 'Itim'
@@ -41,7 +46,7 @@ html
 	scroll-behavior: smooth
 
 body
-	min-height: 100vh
+	// min-height: 100vh
 	text-rendering: optimizeLegibility
 	-webkit-font-smoothing: antialiased
 	-moz-osx-font-smoothing: grayscale
@@ -49,7 +54,7 @@ body
 	color: var(--secondary-text)
 
 #app
-	height: 100vh
+	// height: 100vh
 
 h2
 	font-size: 54px
@@ -58,8 +63,8 @@ h2
 .hidden
 	display: none
 
-// All except desktop
-@media screen and (max-width: $desktop-breakpoint)
+// All except xl screen
+@media screen and (max-width: $xl-breakpoint)
 
 // All except mobile
 @media screen and (min-width: $tablet-breakpoint)
@@ -68,4 +73,4 @@ h2
 @media screen and (max-width: $tablet-breakpoint)
 
 // Desktop only
-@media screen and (min-width: $desktop-breakpoint)
+@media screen and (min-width: $xl-breakpoint)
