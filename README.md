@@ -1,61 +1,50 @@
-# smileandlearn
+# Prueba Técnica 8293
 
-This template should help get you started developing with Vue 3 in Vite.
+## Installation
 
-## Recommended IDE Setup
+Recommended: pnpm (v9.1.2)
+`npm install -g pnpm`
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
-
-## Type Support for `.vue` Imports in TS
-
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
+**Install workspace packages**
 
 ```sh
 pnpm install
 ```
 
-### Compile and Hot-Reload for Development
+_without pnpm_: `npm install`
+
+## Start in DEV mode
 
 ```sh
 pnpm dev
 ```
 
-### Type-Check, Compile and Minify for Production
+Will run a frontend SPA at http://localhost:5173
 
-```sh
-pnpm build
-```
+_without pnpm_: `npm run install`
 
-### Run Unit Tests with [Vitest](https://vitest.dev/)
+---
+
+Test the application
 
 ```sh
 pnpm test:unit
 ```
 
-### Run End-to-End Tests with [Playwright](https://playwright.dev)
+---
 
-```sh
-# Install browsers for the first run
-npx playwright install
+# Stack used
 
-# When testing on CI, must build the project first
-pnpm build
+- Typescript
+- Vue
+- Vue Router
+- Pinia
+- Sass
+- vue-i18n
+- vue3-carousel
+- vue3-ytframe
 
-# Runs the end-to-end tests
-pnpm test:e2e
-# Runs the tests only on Chromium
-pnpm test:e2e --project=chromium
-# Runs the tests of a specific file
-pnpm test:e2e tests/example.spec.ts
-# Runs the tests in debug mode
-pnpm test:e2e --debug
-```
+---
 
 ### Lint with [ESLint](https://eslint.org/)
 
