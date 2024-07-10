@@ -36,16 +36,6 @@
 <style scoped lang="sass">
 
 #theme-btn
-	margin-right: 10vw
-	height: 60px
-	width: 60px
-	border-radius: 50%
-	border: none
-	display: flex
-	align-items: center
-	justify-content: center
-	background: inherit
-	cursor: pointer
 
 	svg
 		fill: var(--icon)

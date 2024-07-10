@@ -1,21 +1,26 @@
 <script setup lang="ts">
 import { RouterLink } from 'vue-router'
 import ToggleTheme from '../components/ToggleTheme.vue'
+import ToggleLang from '../components/ToggleLang.vue'
 </script>
 
 <template>
   <div class="view-layout">
     <header>
-      <RouterLink to="/">
-        <img alt="Smile And Learn logo" class="logo" src="@/assets/Smile-and-learn.png" />
-      </RouterLink>
-      <slot name="header"></slot>
+      <div class="wrapper">
+        <RouterLink to="/">
+          <img alt="Smile And Learn logo" class="logo" src="@/assets/Smile-and-learn.png" />
+        </RouterLink>
+        <div class="items">
+          <ToggleLang />
+          <ToggleTheme />
+        </div>
+      </div>
       <div class="fixed-circles">
         <img src="@/assets/circle-bubble.svg" />
         <img src="@/assets/circle-bubble.svg" />
         <img src="@/assets/circle-bubble.svg" />
       </div>
-      <ToggleTheme />
     </header>
     <slot />
     <div class="bottom-waves">
@@ -35,8 +40,34 @@ import ToggleTheme from '../components/ToggleTheme.vue'
 header
 	padding: 2vh 24px 0
 	position: relative
-	display: flex
-	justify-content: space-between
+
+	.wrapper
+		display: flex
+		justify-content: space-between
+		align-items: flex-start
+
+	.items
+		height: 105px
+		display: flex
+		align-items: center
+		gap: 24px
+		padding-right: 9vw
+
+		button
+			border: 1px solid var(--secondary)
+			border-bottom-width: 3px
+			background: inherit
+			color: var(--font-color)
+			text-transform: uppercase
+			font-size: 23px
+			background: var(--bg-soft)
+			border-radius: 5px
+			cursor: pointer
+			height: 60px
+			width: 60px
+			display: flex
+			align-items: center
+			justify-content: center
 
 	img
 		max-width: 257px
@@ -47,6 +78,7 @@ header
 		z-index: 0
 
 		&:nth-child(1)
+			visibility: hidden
 			top: 80px
 			right: 88px
 		&:nth-child(2)
@@ -56,7 +88,7 @@ header
 		&:nth-child(3)
 			width: 102px
 			left: -60px
-			top: 140px
+			top: 144px
 
 .bottom-waves
 	position: relative
@@ -95,28 +127,40 @@ header
 	.fixed-circles
 		heigh: 100%
 		img
+			&:nth-child(1)
+				visibility: visible
 			&:nth-child(3)
 				top: inherit
 				width: 132px
 				left: -76px
-				bottom: 40px
+				bottom: 80px
 
 // Mobile and Tablet
 @media screen and (max-width: $tablet-breakpoint)
 	header
+		height: 220px
 		img
-			width: 60%
+			margin: auto
+		.wrapper
+			flex-direction: column
+			align-items: center
+		.items
+			padding-right: 0
 
 	.fixed-circles
 		img
 			&:nth-child(1)
+				visibility: visible
 				width: 32px
-				top: 12px
-				right: 80px
+				top: 102px
+				right: 25px
 			&:nth-child(2)
 				width: 190px
-				top: -70px
-				right: -124px
+				top: -80px
+				right: -134px
+			&:nth-child(3)
+				left: -60px
+				top: 84px
 
 	.bottom-waves
 		min-height: 120px

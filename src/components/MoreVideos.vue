@@ -39,6 +39,9 @@ console.log('videos', props.videos)
 <style lang="sass">
 @import '@/styles/vars'
 
+.more-videos
+	overflow: hidden
+
 .small-carousel
 	display: flex
 	justify-content: center

@@ -45,7 +45,7 @@ watch(route, () => {
     </div>
     <MoreVideos v-if="videosStore.category" :videos="videosStore.category.videosList!" />
     <section class="all-categories">
-      <h2>Todas las categorias</h2>
+      <h2>{{ $t('allCategories') }}</h2>
       <div class="categories-carousel">
         <CarouselLayout :controls="false">
           <Slide v-for="category in videosStore.categoriesList" :key="category.id">
@@ -108,6 +108,8 @@ section.all-categories
 
 // Mobile and Tablet
 @media screen and (max-width: $tablet-breakpoint)
+	.video-player-view
+		padding: 40px 0
 	.category-info
 		padding: 24px 8vw
 		min-height: 140px
@@ -119,7 +121,7 @@ section.all-categories
 			max-width: inherit
 
 	.video-player-section
-		margin-top: 10vh
+		margin-top: 6vh
 		margin-bottom: 12vh
 		padding: 0
 

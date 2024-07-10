@@ -1,9 +1,9 @@
-// Get Categories /api/categories  ?lang=en
+// Get Categories /api/categories  [?lang=en]
 export interface CategoriesList {
   categoriesList: Category[]
 }
 
-// Get CategoryById /api/categories/id  ?lang=en
+// Get CategoryById /api/categories/id  [?lang=en]
 interface Category {
   id: string
   name: LocalizedStr
@@ -12,14 +12,14 @@ interface Category {
   videosTotalCount: number
 }
 
-// Get VideosByCategory /api/categories/id/videos
+// Get VideosByCategory /api/categories/id/videos [?lang=en]
 export interface VideosList {
   videosList: Video[]
   videosTotalCount: number
   categoryId: string
 }
 
-// Get VideoById /api/videos/id  ?lang=en
+// Get VideoById /api/videos/id  [?lang=en]
 interface Video {
   id: string
   url: LocalizedStr
@@ -40,14 +40,6 @@ interface Thumbnail {
   height: number
 }
 
-export type Langs = 'es' | 'en' | 'pt' | 'it'
+export type Langs = 'es' | 'en' | 'pt' | 'it' // example
 
-// Depends on ?lang=
-type LocalizedStr = {
-  [key in Langs]: {
-    en: string
-    es: string
-    pt: string
-    it: string
-  }
-}
+type LocalizedStr = string // Depends on [?lang=_Langs_]
