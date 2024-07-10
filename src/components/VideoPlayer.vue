@@ -53,11 +53,11 @@ watch(route, () => {
 	background: var(--primary-soft)
 	aspect-ratio: 16/9.11
 	// height: 60vh
-	max-width: 900px
+	width: 100%
 	position: relative
 	cursor: pointer
 	overflow: hidden
-	box-shadow: 0 4px 10px 0 rgba(244, 180, 74, 1)
+	box-shadow: var(--box-shadow-yellow)
 	margin: auto
 
 	& > div
@@ -84,17 +84,22 @@ watch(route, () => {
 		.play-icon
 			width: 180px
 
-// Desktop only
-@media screen and (min-width: $desktop-breakpoint)
+// Only xl screens
+@media screen and (min-width: $xl-breakpoint)
 	.video-player
 		min-width: 900px
 
-// Mobile only
-@media screen and (max-width: $mobile-breakpoint)
+// // All except desktop
+// @media screen and (max-width: $tablet-breakpoint)
+// 	.video-player
+// 		min-width: 100%
+
+// Mobile and Tablet
+@media screen and (max-width: $tablet-breakpoint)
 	.video-player
 		border-width: 0px
 		border-radius: 0
-		box-shadow: 0 0px 10px 0 rgba(244, 180, 74, 1)
+		box-shadow: var(--box-shadow-yellow)
 		overflow: visible
 		min-width: 100vw
 

@@ -2,10 +2,11 @@
 import { useVideosStore } from '@/stores/videos'
 import { useRoute, useRouter } from 'vue-router'
 import 'vue3-carousel/dist/carousel.css'
-import { Carousel, Slide } from 'vue3-carousel'
+import { Slide } from 'vue3-carousel'
 import CategoryItem from '../components/CategoryItem.vue'
 import VideoPlayer from '../components/VideoPlayer.vue'
 import MoreVideos from '../components/MoreVideos.vue'
+import CarouselLayout from '../layouts/CarouselLayout.vue'
 import { watch } from 'vue'
 
 const route = useRoute()
@@ -17,28 +18,6 @@ if (typeof route.query.category === 'string') {
   videosStore.fetchCategoryById(route.query.category)
 } else {
   router.replace('/')
-}
-
-const settings = {
-  itemsToShow: 1.5,
-  wrapAround: true
-}
-
-const breakpoints = {
-  // 700px and up
-  700: {
-    itemsToShow: 2,
-    wrapAround: true
-  },
-  1200: {
-    itemsToShow: 3.5,
-    wrapAround: true
-  },
-  // 1300 and up
-  1560: {
-    itemsToShow: 4,
-    wrapAround: true
-  }
 }
 
 watch(route, () => {
@@ -59,7 +38,7 @@ watch(route, () => {
       <h1>{{ videosStore.category?.name }}</h1>
     </div>
     <div class="video-player-section">
-      <div>
+      <div class="video-wrapper">
         <VideoPlayer :video="videosStore.activeVideo" />
         <div class="video-name">{{ videosStore.activeVideo?.name }}</div>
       </div>
@@ -68,11 +47,11 @@ watch(route, () => {
     <section class="all-categories">
       <h2>Todas las categorias</h2>
       <div class="categories-carousel">
-        <Carousel :settings="settings" :breakpoints="breakpoints">
+        <CarouselLayout :controls="false">
           <Slide v-for="category in videosStore.categoriesList" :key="category.id">
             <CategoryItem v-bind="category" />
           </Slide>
-        </Carousel>
+        </CarouselLayout>
       </div>
     </section>
   </div>
@@ -82,8 +61,7 @@ watch(route, () => {
 @import '@/styles/vars'
 
 .video-player-view
-	padding: 0 0 60px
-	margin-top: 8vh
+
 
 .category-info
 	display: flex
@@ -102,8 +80,8 @@ watch(route, () => {
 	justify-content: center
 	align-items: center
 
-	& > div
-		max-width: 55vw
+	.video-wrapper
+		max-width: 70vw
 
 	.video-name
 		font-size: 24px
@@ -118,11 +96,18 @@ section.all-categories
 		text-align: center
 		margin-bottom: 40px
 
-// Mobile only
-@media screen and (max-width: $mobile-breakpoint)
+// Only xl screen
+@media screen and (min-width: $xl-breakpoint)
 	.video-player-view
-		margin-top: 40px
+		padding: 0 0 60px
+		margin-top: 8vh
+	.video-player-section
+		.video-wrapper
+			width: 65vw
+			max-width: 900px
 
+// Mobile and Tablet
+@media screen and (max-width: $tablet-breakpoint)
 	.category-info
 		padding: 24px 8vw
 		min-height: 140px
@@ -135,10 +120,11 @@ section.all-categories
 
 	.video-player-section
 		margin-top: 10vh
-		margin-bottom: 20vh
+		margin-bottom: 12vh
 		padding: 0
 
-		& > div
+		.video-wrapper
+			width: 100vw
 			max-width: inherit
 
 		.video-name

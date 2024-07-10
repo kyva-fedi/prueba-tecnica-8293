@@ -62,6 +62,7 @@ h2
 		padding-bottom: 0px
 
 		h2
+			margin-top: 80px
 			padding: 8px 24px
 			font-size: 42px
 

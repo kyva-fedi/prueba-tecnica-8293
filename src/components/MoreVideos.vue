@@ -49,8 +49,8 @@ console.log('videos', props.videos)
 	.video-item
 		width: 420px
 
-// Mobile only
-@media screen and (max-width: $mobile-breakpoint)
+// All except xl screen
+@media screen and (max-width: $xl-breakpoint)
 	.small-carousel
 		flex-direction: column
 		padding: 0 6vw

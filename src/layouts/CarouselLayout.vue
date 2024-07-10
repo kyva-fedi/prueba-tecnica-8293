@@ -10,21 +10,22 @@ const props = withDefaults(defineProps<{ controls?: boolean }>(), {
 <template>
   <Carousel :settings="settings" :breakpoints="breakpoints">
     <slot />
-    <template #addons v-if="props.controls">
+    <template #addons>
       <Navigation />
-      <Pagination />
+      <Pagination v-if="props.controls" />
     </template>
   </Carousel>
 </template>
 
-<style scoped lang="sass">
+<style lang="sass">
 @import '@/styles/vars'
 
 .carousel__next, .carousel__prev
 	display: none
+	margin: 0
 
-// Mobile only
-@media screen and (max-width: $mobile-breakpoint)
+// Mobile and Tablet
+@media screen and (max-width: $tablet-breakpoint)
 .carousel__next, .carousel__prev
 	display: inline
 </style>
